@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Hotel RS</title>
+    <style>
+    body{
+    margin:0;
+    font-family: Arial;
+    background:#f4f4f4;
+}
+header{
+    background:#2c3e50;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+nav{
+    background:#34495e;
+    text-align:center;
+    padding:10px;
+}
+nav a{
+    color:white;
+    margin:15px;
+    text-decoration:none;
+    font-size:18px;
+}
+nav a:hover{
+    color:yellow;
+}
+.container{
+    background-image: url("https://www.oberoihotels.com/-/media/oberoi-hotel/video_thumbnail_images/new_delhi.jpg");
+    background-size:cover;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+.hero{
+    text-align:center;
+    padding:60px;
+    background:#ecf0f1;
+}
+.rooms{
+    text-align:center;
+    padding:40px;
+}
+.room-card{
+    display:inline-block;
+    background:white;
+    width:300px;
+    margin:20px;
+    padding:20px;
+    border-radius:10px;
+    box-shadow:0px 0px 10px gray;
+}
+.booking{
+    text-align:center;
+    padding:40px;
+    background:#ecf0f1;
+}
+.booking input{
+    display:block;
+    margin:10px auto;
+    padding:10px;
+    width:250px;
+}
+.booking button{
+    padding:10px 20px;
+    background:#27ae60;
+    color:white;
+    border:none;
+    cursor:pointer;
+}
+.booking button:hover{
+    background:#2ecc71;
+}
+footer{
+    background:#2c3e50;
+    color:white;
+    text-align:center;
+    padding:15px;
+}
+</style>
+</head>
+<body>
+<header>
+    <h1>Hotel RS</h1>
+    <p>Your Comfort is Our Priority</p>
+</header>
+<nav>
+    <a href="#">Home</a>
+    <a href="#">Rooms</a>
+    <a href="#">Services</a>
+    <a href="#">Booking</a>
+    <a href="#">Contact</a>
+</nav>
+<div class="container">
+<section class="hero">
+    <h2>Welcome to Hotel RS</h2>
+    <p>Enjoy luxury and comfort with the best services.</p>
+</section>
+<section class="rooms">
+    <h2>Our Rooms</h2>
+    <div class="room-card">
+        <img src="hotel image normal.jpeg" alt="Hotel Image">
+        <h3>Single Room</h3>
+        <p>Comfortable room for one person.</p>
+        <p>Price: $50 / night</p>
+    </div>
+    <div class="room-card">
+        <img src="hotel image double.jpeg" alt="Hotel Image">
+        <h3>Double Room</h3>
+        <p>Perfect for couples.</p>
+        <p>Price: $80 / night</p>
+    </div>
+    <div class="room-card">
+        <img src="hotel image luxury.jpeg" alt="Hotel Image">
+        <h3>Luxury Suite</h3>
+        <p>Premium luxury experience.</p>
+        <p>Price: $150 / night</p>
+    </div>
+</section>
+<section class="booking">
+    <h2>Book a Room</h2>
+    <form>
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Email" required>
+        <input type="date" required>
+        <input type="number" placeholder="Number of Guests">
+        <button type="submit">Book Now</button>
+    </form>
+</section>
+</div>
+<footer>
+    <p>© 2026 Hotel RS | All Rights Reserved</p>
+</footer>
+</body>
+</html>
